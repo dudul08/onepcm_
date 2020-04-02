@@ -23,7 +23,7 @@
                     <a class="nav-link" href="#">Accueil </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Gérer les enfants</a>
+                    <a class="nav-link" href="{{ route('enfants.index') }}">Gérer les enfants</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Gérer les parents</a>
