@@ -1,0 +1,8 @@
+Route statique : 
+Route::view('/','bonspoints.index');
+
+Créer une ressource :
+dans web.php
+Route::resource('enfants','EnfantController');
+dans artisan :
+php .\artisan make:controller EnfantController --resource   

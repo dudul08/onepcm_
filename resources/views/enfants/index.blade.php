@@ -1,5 +1,6 @@
 @extends('layout')
 
 @section('content')
-Elaina
+liste des enfants
+
 @endsection

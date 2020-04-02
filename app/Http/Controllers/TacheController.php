@@ -13,9 +13,8 @@ class TacheController extends Controller
      */
     public function index()
     {
-        //
+        return view('taches.index');
     }
-
     /**
      * Show the form for creating a new resource.
      *

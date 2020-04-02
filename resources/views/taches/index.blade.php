@@ -1,5 +1,5 @@
 @extends('layout')
 
 @section('content')
-listes des tâches
+liste des tâches
 @endsection
