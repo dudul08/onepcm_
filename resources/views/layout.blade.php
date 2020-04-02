@@ -5,34 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- Styles -->
-    <style>      
-        body{
-            padding-top:60px;
-        }
-        /* fix padding under menu after resize */
-        @media screen and (max-width: 767px) {
-            body { padding-top: 60px; }
-        }
-        @media screen and (min-width:768px) and (max-width: 991px) {
-            body { padding-top: 110px; }
-        }
-        @media screen and (min-width: 992px) {
-            body { padding-top: 60px; }
-        }
-    </style>
-
+    <title>ONEPCM</title>
+    <link rel="stylesheet" href="{{ url('/css/app.css') }}">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
         <a class="navbar-brand" href="#">On n'est pas chez mamie !</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,42 +32,8 @@
         </div>
     </nav>
     <div class="container">
-        <!-- Content here -->
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-        gsdfgsdfgsdfg
-      </div>
+       @yield('content')
+    </div>
 
 
 
