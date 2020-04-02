@@ -20,13 +20,13 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Accueil </a>
+                    <a class="nav-link" href="{{ route('bonspoints.index') }}">Gérer les bons points </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('enfants.index') }}">Gérer les enfants</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Gérer les parents</a>
+                    <a class="nav-link" href="{{ route('parents.index') }}">Gérer les parents</a>
                 </li>
             </ul>
         </div>

@@ -12,8 +12,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::view('/','enfants.index');
+Route::view('/','bonspoints.index');
 Route::resource('enfants','EnfantController');
 Route::resource('parents','ParentController');
-Route::resource('taches','TachesController');
+Route::resource('taches','TacheController');
 Route::resource('bonspoints','BonPointController');

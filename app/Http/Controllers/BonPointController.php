@@ -13,7 +13,7 @@ class BonPointController extends Controller
      */
     public function index()
     {
-        //
+        return view('bonspoints.index');
     }
 
     /**
