@@ -13,7 +13,8 @@ class EnfantController extends Controller
      */
     public function index()
     {
-        //
+        return view('enfants.index');
+
     }
 
     /**
